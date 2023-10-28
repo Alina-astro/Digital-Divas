@@ -9,7 +9,7 @@ function loadQuestions() {
       questions = data;
       displayQuestion(currentQuestion);
     });
-    document.getElementById("home-button").style.display = "none";
+  document.getElementById("home-button").style.display = "none";
 }
 
 function displayQuestion(questionNumber) {
@@ -41,8 +41,10 @@ function checkAnswer() {
     if (selectedOptionData.isCorrect) {
       score++;
       resultContainer.innerText = "Правильно!";
+      resultContainer.style.color = "green";
     } else {
       resultContainer.innerText = "Неправильно.";
+      resultContainer.style.color = "red";
     }
   } else {
     resultContainer.innerText = "Выберите вариант ответа.";
