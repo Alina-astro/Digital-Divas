@@ -41,8 +41,10 @@ function checkAnswer() {
     if (selectedOptionData.isCorrect) {
       score++;
       resultContainer.innerText = "Правильно!";
+      resultContainer.style.color = "green";
     } else {
       resultContainer.innerText = "Неправильно.";
+      resultContainer.style.color = "red";
     }
   } else {
     resultContainer.innerText = "Выберите вариант ответа.";
