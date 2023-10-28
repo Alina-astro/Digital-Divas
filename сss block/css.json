@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "text": "Какое свойство используется для установки цвета фона?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "color", "isCorrect": false },
+      { "id": 2, "text": "background-color", "isCorrect": true },
+      { "id": 3, "text": "bgcolor", "isCorrect": false },
+      { "id": 4, "text": "background", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Какое свойство позволяет установить внешние отступы элемента?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "padding", "isCorrect": false },
+      { "id": 2, "text": "border", "isCorrect": false },
+      { "id": 3, "text": "margin", "isCorrect": true },
+      { "id": 4, "text": "spacing", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Какое свойство используется для установки шрифта?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "font-weight", "isCorrect": false },
+      { "id": 2, "text": "font-style", "isCorrect": false },
+      { "id": 3, "text": "text-font", "isCorrect": false },
+      { "id": 4, "text": "font-family", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Какое свойство CSS позволяет контролировать видимость элемента в DOM, но при этом сохраняет его место?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "display: none", "isCorrect": false },
+      { "id": 2, "text": "visibility: hidden", "isCorrect": true },
+      { "id": 3, "text": "is-visible: 0", "isCorrect": false },
+      { "id": 4, "text": "color: transparent", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Какое свойство CSS используется для установки теней элементов?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "box-shadow", "isCorrect": true },
+      { "id": 2, "text": "text-shadow", "isCorrect": false },
+      { "id": 3, "text": "shadow", "isCorrect": false },
+      { "id": 4, "text": "border-shadow", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Какой селектор выбирает все элементы .child, которые являются непосредственными дочерними элементами .parent?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": ".parent + .child", "isCorrect": false },
+      { "id": 2, "text": ".parent ~ .child", "isCorrect": false },
+      { "id": 3, "text": ".parent > .child", "isCorrect": true },
+      { "id": 4, "text": ".parent .child", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, начинающийся с определенной строки?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "[attr=value]", "isCorrect": false },
+      { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+      { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+      { "id": 4, "text": "[attr^=value]", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, заканчивающийся определенной строкой?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "[attr=value]", "isCorrect": false },
+      { "id": 2, "text": "[attr~=value]", "isCorrect": false },
+      { "id": 3, "text": "[attr|=value]", "isCorrect": false },
+      { "id": 4, "text": "[attr$=value]", "isCorrect": true }
+    ]
+  }
+]

@@ -3,7 +3,7 @@ let score = 0;
 let questions = [];
 
 function loadQuestions() {
-  fetch("html.json")
+  fetch("css.json")
     .then((response) => response.json())
     .then((data) => {
       questions = data;
