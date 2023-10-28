@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "text": "Какой метод используется для добавления элемента в массив?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "splice()", "isCorrect": false },
+      { "id": 2, "text": "pop()", "isCorrect": false },
+      { "id": 3, "text": "shift()", "isCorrect": false },
+      { "id": 4, "text": "push()", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Какой объект представляет текущее окно браузера?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "document", "isCorrect": false },
+      { "id": 2, "text": "screen", "isCorrect": false },
+      { "id": 3, "text": "window", "isCorrect": true },
+      { "id": 4, "text": "browser", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Какой оператор используется для сравнения на строгое равенство?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "==", "isCorrect": false },
+      { "id": 2, "text": "===", "isCorrect": true },
+      { "id": 3, "text": "=", "isCorrect": false },
+      { "id": 4, "text": "!==", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Какой метод используется для удаления последнего элемента из массива?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "splice()", "isCorrect": false },
+      { "id": 2, "text": "pop()", "isCorrect": true },
+      { "id": 3, "text": "shift()", "isCorrect": false },
+      { "id": 4, "text": "push()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Какой метод в JavaScript используется для преобразования объекта в строку JSON?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "JSON.stringify()", "isCorrect": true },
+      { "id": 2, "text": "JSON.parse()", "isCorrect": false },
+      { "id": 3, "text": "JSON.toText()", "isCorrect": false },
+      { "id": 4, "text": "JSON.toString()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Какой объект в JavaScript используется для работы с датой и временем?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "Time", "isCorrect": false },
+      { "id": 2, "text": "Date", "isCorrect": true },
+      { "id": 3, "text": "Calendar", "isCorrect": false },
+      { "id": 4, "text": "DateTime", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Какой метод массива в JavaScript используется для фильтрации элементов по определенному критерию?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "map()", "isCorrect": false },
+      { "id": 2, "text": "filter()", "isCorrect": true },
+      { "id": 3, "text": "reduce()", "isCorrect": false },
+      { "id": 4, "text": "forEach()", "isCorrect": false }
+    ]
+  }
+]

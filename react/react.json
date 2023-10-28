@@ -1,0 +1,118 @@
+[
+    {
+      "id": 1,
+      "text": "Для чего используется хук useEffect в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Хранения состояния компонента",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Выполнения побочных эффектов",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Мемоизации значений", "isCorrect": false },
+        {
+          "id": 4,
+          "text": "Создания ссылок на DOM элементы",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Что будет, если вторым аргументом в useEffect передать пустой массив []?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Ошибка", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "useEffect будет запущен 0 раз",
+          "isCorrect": false
+        },
+        { "id": 3, "text": "useEffect будет запущен 1 раз", "isCorrect": true },
+        { "id": 4, "text": "Нет верного ответа", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Какой хук используется для создания состояния в компоненте?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "useEffect", "isCorrect": false },
+        { "id": 2, "text": "useState", "isCorrect": true },
+        { "id": 3, "text": "useContext", "isCorrect": false },
+        { "id": 4, "text": "useReducer", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Какой элемент используется для группировки элементов без добавления дополнительных узлов в DOM?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "< Group >", "isCorrect": false },
+        { "id": 2, "text": "< Div >", "isCorrect": false },
+        { "id": 3, "text": "< Fragment > (<>)", "isCorrect": true },
+        { "id": 4, "text": "< List >", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "У нас есть массив со строками (arr), каждую из которых мы хотим отразить на странице. Какой метод массива нужно применить в return компонента?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "{arr.forEach(...)}", "isCorrect": false },
+        { "id": 2, "text": "{arr.filter(...)}", "isCorrect": false },
+        { "id": 3, "text": "{arr.for(...)}", "isCorrect": false },
+        { "id": 4, "text": "{arr.map(...)}", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Какой элемент используется для обработки ошибок в дереве компонентов?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "ErrorBoundary", "isCorrect": true },
+        { "id": 2, "text": "CatchError", "isCorrect": false },
+        { "id": 3, "text": "ErrorWrapper", "isCorrect": false },
+        { "id": 4, "text": "ErrorCatcher", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Какой (какие) аргумент(ы) принимает хук useMemo?",
+      "hasOptions": true,
+      "options": [
+        { "id": 1, "text": "Функцию и массив зависимостей", "isCorrect": true },
+        { "id": 2, "text": "Функцию и объект опций", "isCorrect": false },
+        { "id": 3, "text": "Функцию", "isCorrect": false },
+        { "id": 4, "text": "Массив зависимостей", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Для чего используется хук useCallback в React?",
+      "hasOptions": true,
+      "options": [
+        {
+          "id": 1,
+          "text": "Создания ссылок на DOM элементы",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Хранения состояния компонента",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Выполнения побочных эффектов",
+          "isCorrect": false
+        },
+        { "id": 4, "text": "Мемоизации функций", "isCorrect": true }
+      ]
+    }
+  ]
