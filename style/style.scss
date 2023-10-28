@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(../assets/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+$color-text: #deeefc;
+$color-bg: #23282e;
+$text-main: "Manrope";
+$text-title: "Montserrat";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.header,
+.main,
+.footer {
+  background-color: $color-bg;
+  color: $color-text;
+  font-family: $text-main;
+  font-weight: 400;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  padding: 5px 10vw;
+  .header__logo {
+    height: 100%;
+    @media all and (min-width: 280px) and (max-width: 700px) {
+      display: none;
+    }
+  }
+  .header__title {
+    flex-grow: 1;
+    text-align: center;
+    align-self: center;
+    padding-right: 10vw;
+    font-family: $text-title;
+    font-weight: 300;
+    @media all and (min-width: 280px) and (max-width: 700px) {
+      font-size: 20px;
+    }
+  }
+  @media all and (min-width: 280px) and (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+.main {
+  background-color: $color-bg;
+  color: $color-text;
+  height: 70vh;
+  .wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8vw;
+  @media all and (min-width: 280px) and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 17px 11px rgba(54, 97, 129, 0.2);
+  border: 6px solid $color-bg;
+  border-radius: 20px;
+  a {
+    text-align: center;
+    height: 50%;
+    img {
+      height: 100%;
+    }
+  }
+  @media all and (min-width: 280px) and (max-width: 700px) {
+    width: 50vw;
+    height: 15vh;
+  }
+}
+.card:hover {
+  box-shadow: 0px 0px 17px 27px rgba(63, 114, 154, 0.2);
+  border: none;
+}
+
+.footer {
+  height: 10vh;
+  background-color: $color-bg;
+  color: $color-text;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

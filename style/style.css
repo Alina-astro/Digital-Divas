@@ -1,1 +1,124 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Manrope";
+  src: url(../assets/fonts/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.header,
+.main,
+.footer {
+  background-color: #23282e;
+  color: #deeefc;
+  font-family: "Manrope";
+  font-weight: 400;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  padding: 5px 10vw;
+}
+.header .header__logo {
+  height: 100%;
+}
+@media all and (min-width: 280px) and (max-width: 700px) {
+  .header .header__logo {
+    display: none;
+  }
+}
+.header .header__title {
+  flex-grow: 1;
+  text-align: center;
+  align-self: center;
+  padding-right: 10vw;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+@media all and (min-width: 280px) and (max-width: 700px) {
+  .header .header__title {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 280px) and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.main {
+  background-color: #23282e;
+  color: #deeefc;
+  height: 70vh;
+}
+.main .wrap {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8vw;
+}
+@media all and (min-width: 280px) and (max-width: 700px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 17px 11px rgba(54, 97, 129, 0.2);
+  border: 6px solid #23282e;
+  border-radius: 20px;
+}
+.card a {
+  text-align: center;
+  height: 50%;
+}
+.card a img {
+  height: 100%;
+}
+@media all and (min-width: 280px) and (max-width: 700px) {
+  .card {
+    width: 50vw;
+    height: 15vh;
+  }
+}
+
+.card:hover {
+  box-shadow: 0px 0px 17px 27px rgba(63, 114, 154, 0.2);
+  border: none;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #23282e;
+  color: #deeefc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
