@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: rgb(255, 248, 249);
 }
 
 #quiz-container {
@@ -9,7 +10,6 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-color: #f9f9f9;
 }
 
 button {

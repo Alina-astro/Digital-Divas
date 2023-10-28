@@ -52,7 +52,7 @@ function checkAnswer() {
 function showResult() {
   const questionContainer = document.getElementById("question-container");
   questionContainer.innerHTML = `<h2>Квиз пройден! Ты молодец!</h2>`;
-  document.getElementById("submit-button").disabled = true;
+  document.getElementById("submit-button").style.display = "none";
   document.getElementById("next-button").style.display = "none";
   document.getElementById("quit-button").style.display = "none";
   document.getElementById("home-button").style.display = "inline";
