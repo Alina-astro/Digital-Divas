@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "text": "Какой тег используется для создания ссылки?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;link&gt;", "isCorrect": false },
+      { "id": 2, "text": "&lt;a&gt;", "isCorrect": true },
+      { "id": 3, "text": "&lt;href&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;anchor&gt;", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Какой тег используется для вставки изображения?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;img&gt;", "isCorrect": true },
+      { "id": 2, "text": "&lt;picture&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;media&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;graphic&gt;", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Какой тег находится в &lt;html&gt; определяет заголовок документа?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;head&gt;", "isCorrect": true },
+      { "id": 2, "text": "&lt;header&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;title&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;meta&gt;", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Какой атрибут используется для определения альтернативного текста изображения?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "src", "isCorrect": false },
+      { "id": 2, "text": "alt", "isCorrect": true },
+      { "id": 3, "text": "title", "isCorrect": false },
+      { "id": 4, "text": "href", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Какой атрибут позволяет открыть ссылку в новой вкладке?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "target=_blank", "isCorrect": true },
+      { "id": 2, "text": "target=blank", "isCorrect": false },
+      { "id": 3, "text": "target=_self", "isCorrect": false },
+      { "id": 4, "text": "target=_new", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Какой тег используется для создания таблицы?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;table&gt;", "isCorrect": true },
+      { "id": 2, "text": "&lt;grid&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;row&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;column&gt;", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Какой тег используется для создания заголовка таблицы?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;caption&gt;", "isCorrect": false },
+      { "id": 2, "text": "&lt;th&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;thead&gt;", "isCorrect": true },
+      { "id": 4, "text": "&lt;title&gt;", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Какой тег используется для создания строки таблицы?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;td&gt;", "isCorrect": false },
+      { "id": 2, "text": "&lt;row&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;line&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;tr&gt;", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Какой тег используется для создания ячейки таблицы?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "&lt;cell&gt;", "isCorrect": false },
+      { "id": 2, "text": "&lt;tr&gt;", "isCorrect": false },
+      { "id": 3, "text": "&lt;th&gt;", "isCorrect": false },
+      { "id": 4, "text": "&lt;td&gt;", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Какой атрибут используется для установки фонового изображения?",
+    "hasOptions": true,
+    "options": [
+      { "id": 1, "text": "background", "isCorrect": false },
+      { "id": 2, "text": "background-color", "isCorrect": false },
+      { "id": 3, "text": "bgcolor", "isCorrect": false },
+      { "id": 4, "text": "background-image", "isCorrect": true }
+    ]
+  }
+]
