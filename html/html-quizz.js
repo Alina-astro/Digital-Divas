@@ -9,6 +9,7 @@ function loadQuestions() {
       questions = data;
       displayQuestion(currentQuestion);
     });
+  document.getElementById("home-button").style.display = "none";
 }
 
 function displayQuestion(questionNumber) {
@@ -51,9 +52,10 @@ function checkAnswer() {
 function showResult() {
   const questionContainer = document.getElementById("question-container");
   questionContainer.innerHTML = `<h2>Квиз пройден! Ты молодец!</h2>`;
-  document.getElementById("submit-button").disabled = true;
+  document.getElementById("submit-button").style.display = "none";
   document.getElementById("next-button").style.display = "none";
   document.getElementById("quit-button").style.display = "none";
+  document.getElementById("home-button").style.display = "inline";
 }
 
 function nextQuestion() {
@@ -86,5 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("quit-button").addEventListener("click", () => {
     quitQuiz();
+  });
+
+  document.getElementById("home-button").addEventListener("click", () => {
+    window.location.href = "../index.html";
   });
 });
