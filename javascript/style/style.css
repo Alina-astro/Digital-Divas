@@ -32,7 +32,7 @@ body {
 #quiz-container {
   height: 55vh;
   border-radius: 20px;
-  box-shadow: 0px 0px 32px 19px rgb(252, 177, 95);
+  box-shadow: 0px 0px 32px 19px rgba(252, 177, 95, 0.8);
 }
 #quiz-container #question-container {
   height: 55%;
