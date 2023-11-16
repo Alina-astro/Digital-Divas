@@ -1,17 +1,11 @@
 @font-face {
-  font-family: "Manrope";
-  src: url(../assets/fonts/Manrope-VariableFont_wght.ttf);
-}
-
-@font-face {
   font-family: "Montserrat";
   src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 $color-text: #deeefc;
 $color-bg: #23282e;
-$text-main: "Manrope";
-$text-title: "Montserrat";
+$text: "Montserrat";
 
 * {
   margin: 0;
@@ -28,16 +22,15 @@ body {
 .footer {
   background-color: $color-bg;
   color: $color-text;
-  font-family: $text-main;
-  font-weight: 400;
+  font-family: $text;
 }
 
 .header {
-  height: 20vh;
+  height: 30vh;
   display: flex;
   padding: 5px 10vw;
   .header__logo {
-    height: 100%;
+    height: 90%;
     @media all and (min-width: 280px) and (max-width: 700px) {
       display: none;
     }
@@ -47,25 +40,25 @@ body {
     text-align: center;
     align-self: center;
     padding-right: 10vw;
-    font-family: $text-title;
     font-weight: 300;
     @media all and (min-width: 280px) and (max-width: 700px) {
       font-size: 20px;
     }
   }
   @media all and (min-width: 280px) and (max-width: 700px) {
-    flex-direction: column;
+    height: 15vh;
   }
 }
 .main {
-  background-color: $color-bg;
-  color: $color-text;
-  height: 70vh;
+  height: 60vh;
   .wrap {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media all and (min-width: 280px) and (max-width: 700px) {
+    height: 80vh;
   }
 }
 
@@ -83,8 +76,8 @@ body {
 }
 
 .card {
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +86,7 @@ body {
   border-radius: 20px;
   a {
     text-align: center;
-    height: 50%;
+    height: 70%;
     img {
       height: 100%;
     }
@@ -104,15 +97,16 @@ body {
   }
 }
 .card:hover {
-  box-shadow: 0px 0px 17px 27px rgba(63, 114, 154, 0.2);
+  box-shadow: 0px 0px 17px 27px #3f729a33;
   border: none;
 }
 
 .footer {
   height: 10vh;
-  background-color: $color-bg;
-  color: $color-text;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 280px) and (max-width: 700px) {
+    height: 5vh;
+  }
 }
