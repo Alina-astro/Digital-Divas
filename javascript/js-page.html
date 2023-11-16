@@ -5,19 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JS-quiz</title>
-  <link rel="shortcut icon" href="../assets/icons/icon-js.png" type="image/png" />
-  <link rel="stylesheet" href="./js-style.css" />
+  <link rel="shortcut icon" href="./assets/icons/icon-js.png" type="image/png" />
+  <link rel="stylesheet" href="./style/style.css" />
 </head>
 
 <body>
-  <div id="quiz-container">
+  <div class="wrap">
     <h1>Java Script</h1>
-    <div id="question-container"></div>
-    <div id="result"></div>
-    <button id="submit-button">Отправить</button>
-    <button id="next-button">Следующие вопросы</button>
-    <button id="quit-button">Выйти</button>
-    <button id="home-button">Играть снова</button>
+    <div id="quiz-container">
+      <div id="question-container"></div>
+      <div id="result"></div>
+      <div class="button">
+        <button id="quit-button">Выйти</button>
+        <button id="next-button">Пропустить</button>
+        <button id="submit-button">Далее</button>
+        <button id="home-button">Играть снова</button>
+      </div>
+    </div>
   </div>
   <script src="js-quizz.js"></script>
 </body>
