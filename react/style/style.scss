@@ -6,10 +6,10 @@
 $text: "Montserrat";
 $color-text: #deeefc;
 $color-bg: #23282e;
-$box-shadow: 0px 0px 32px 19px #47beb9b0;
-$btn-color-bg: #47beb99c;
-$btn-color-active: #25bab3;
-$btn-border: 4px solid #2f7f7b;
+$box-shadow: 0px 0px 32px 19px rgba(195, 91, 157, 1);
+$btn-color-bg: #c35b9db5;
+$btn-color-active: #c35b9d;
+$btn-border: 4px solid #863f6c;
 
 * {
   box-sizing: border-box;
@@ -37,36 +37,44 @@ body {
     }
   }
 }
+
 .box {
   height: 55vh;
   border-radius: 20px;
   box-shadow: $box-shadow;
+
   .box__text {
     height: 55%;
     text-align: center;
     padding: 8%;
+
     @media all and (min-width: 280px) and (max-width: 400px) {
       height: 50%;
     }
   }
+
   .box__result {
     height: 5%;
     text-align: center;
+
     @media all and (min-width: 280px) and (max-width: 400px) {
       height: 10%;
     }
   }
+
   .box__button {
     height: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5% 15%;
+
     @media all and (min-width: 280px) and (max-width: 1100px) {
       flex-direction: column-reverse;
       padding: 10px;
       gap: 10px;
     }
+
     .button {
       height: 70%;
       border-radius: 20px;
@@ -77,34 +85,44 @@ body {
       font-size: 20px;
       font-weight: 400;
       cursor: pointer;
+
       @media all and (min-width: 280px) and (max-width: 1100px) {
         height: 50px;
       }
+
       @media all and (min-width: 280px) and (max-width: 400px) {
         font-size: 14px;
       }
     }
+
     .button_long {
       width: 30%;
+
       @media all and (min-width: 601px) and (max-width: 1100px) {
         width: 50%;
       }
+
       @media all and (min-width: 280px) and (max-width: 600px) {
         width: 90%;
       }
     }
+
     .button_short {
       width: 25%;
+
       @media all and (min-width: 280px) and (max-width: 1100px) {
         width: 50%;
       }
+
       @media all and (min-width: 280px) and (max-width: 600px) {
         width: 90%;
       }
     }
+
     .button:hover {
       background-color: $btn-color-active;
     }
+
     .button:active {
       background-color: $btn-color-active;
       border: $btn-border;
